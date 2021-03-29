@@ -57,44 +57,49 @@
     }
     
     .lesson-wrapper {
-        height: 2200px;
+        height: 2100px;
         margin-top: 50px;
     }
-  .lesson {
-    width: 100%;
-  }
+    
+    .lesson {
+        width: 100%;
+    }
+    
+    .txt-contents {
+        width: 80%;
+    }
+    
     h1{
         font-size:24px;
     }
   
-  #footer {
-    text-align: center;
-  }
+    #footer {
+        text-align: center;
+    }
     
     #footer P {
         font-weight:200;
     }
     
- #k {
-    width: 100%;
-    text-align: center;
-     padding: 20px;
+     #k {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
     }
   
-  .btn {
-    width: 80%; 
-  }
+    .btn {
+        width: 80%; 
+    }
   
-
-  .header-right {
-  display:none
-  }
+    .header-right {
+        display:none
+    }
  
-  .menu-icon {
-    display:block;
-      color: black;
-      font-size: 45px;
-  }
+    .menu-icon {
+        display:block;
+        color: black;
+        font-size: 45px;
+    }
   
 
 
