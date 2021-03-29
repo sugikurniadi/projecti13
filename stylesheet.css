@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* Header by Isa */
+li {
+  list-style: none;
+}
+
+.header{
+  background-color:rgba(255, 255, 255, 0.9);
+  color:black;
+  height:90px;
+    padding: 0 100px;
+}
+
+.header-logo{
+  float:left;
+}
+
+.logo {
+    width: 145px;
+    margin-top: 25px; 
+}
+
+.header-list {
+    float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+    margin-top:30px;
+  padding: 15px 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(105, 55, 255, 1);
+    color:white;
+    padding:15px 30px;
+}
+/* End Header */
+      
+/* Responsive by Sugi */
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 45px;
+  padding: 40px 20px;
+  display:none;
+}
+/* End Responsive */
+
+/* Main by Ahim */
+.main-container {
+  width: 100%;
+  height: 417px;
+    
+    margin-top:25px;
+}
+
+.main {
+  width: 100%;
+  height: 417px;
+  text-align: center;
+}
+
+.main h1 {
+  opacity: 1;
+  font-size: 55px;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+padding:0 300px;
+padding-top:35px;
+    letter-spacing: -1.5px;
+    line-height: 55px;
+}
+
+.main p {
+  opacity: 1;
+  font-size: 30px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.btn-wrapper {
+  text-align: right
+  z-index: 10;
+}
+
+.btn {
+  padding: 12px 27px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color:#6937ff;
+    transition: all 0.5s;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #6937ff;
+    color:  white;
+}
+
+@keyframes example {
+  0%   {background-image: url(https://1.bp.blogspot.com/-stQ-GGUoqhg/YGE0AkrQvqI/AAAAAAAATns/fcOJ19RcGjIMAUsiP5E0OgDa1SD78bveQCLcBGAsYHQ/s16000/warm-gradient-chains-nested-fluid-abstract.jpeg)}
+  25%  {background-image: url(https://1.bp.blogspot.com/-34aReqdk8JY/YGE0IK8wOCI/AAAAAAAAToA/oBwOJQAtiogZF5Z_27F9K6PqTLlEr86WACLcBGAsYHQ/s16000/neon-dunes-uhd-8k-wallpaper.jpg)}
+  50%  {background-image: url(https://1.bp.blogspot.com/-pQSwsHwJfF8/YGE0HF7SvYI/AAAAAAAATn0/6Ca2EKXr2oU0M7Ppakt4Q_7PdJo_yxHhACLcBGAsYHQ/s16000/gradiant-blue-green-wqhd-1440p-wallpaper.jpg)}
+  75%  {background-image: url(https://1.bp.blogspot.com/-AP5vHgAJSDo/YGE0HNQ6WuI/AAAAAAAATn4/bH8sTYCO_FMy5p71CgVcq4Ng7akb1fuPgCLcBGAsYHQ/s16000/blue-pink-gradient-uhd-4k-wallpaper.jpg)}
+  100% {background-image: url(https://1.bp.blogspot.com/-stQ-GGUoqhg/YGE0AkrQvqI/AAAAAAAATns/fcOJ19RcGjIMAUsiP5E0OgDa1SD78bveQCLcBGAsYHQ/s16000/warm-gradient-chains-nested-fluid-abstract.jpeg)}
+}
+
+.animation {
+  width: 100%;
+  height: 410px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.overlap {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* End Main */
+      
+/* Body by Rosi */
+.lesson-wrapper {
+  height: 930px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 70px;
+  padding-bottom: 70px;  
+  color: #5f5d60;
+}
+
+h1{
+    font-size: 30px;
+    padding:0 280px;
+    color: black;
+    line-height: 40px
+}
+
+.heading p {
+    color: grey;
+    font-size: 20px;
+    padding: 0 340px;
+    line-height: 28px
+}
+
+.blue {
+    color: #6937ff;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;  
+}
+
+.lessons {
+    padding: 30px 80px;
+    display: inline-block;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+
+.txt-contents {
+  width: 70%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+  color:darkgrey;
+}
+/* End Body */
+      
+/* Footer by Wahyu */
+#footer{
+  width: 100%;
+  text-align: center;
+  background: #221e41;
+  clear: both;
+  padding: 5px;
+ }
+
+#footer p{
+    color:white;
+    font-size:13px;
+}
+
+.logo-footer {
+    margin-top: 20px
+}
+       #t{
+  width: 100%;
+  background-color: #6937ff;
+  clear: both;
+ }
+
+ #tk{
+  width:100%;
+  padding:20px 80px;
+ }
+
+ #k{
+  float: left;
+  width: 33%;
+  color: #fff;
+     margin-bottom: 30px;
+ }
+
+
+#k a {
+    color: white;
+}
+
+#k li {
+    margin-left: -40px;
+}
+#t{
+    
+}
+
+/* End Footer */
